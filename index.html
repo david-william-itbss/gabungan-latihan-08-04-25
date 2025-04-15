@@ -3,18 +3,34 @@
 <head>
 <link rel="stylesheet" href="mystyle.css">
 <style>
+/* this is a single line comment */
+/* multiple lines
+comment */
 #paragraph-1 {
-  color: blue;
+  color: blue
 }
 .paragraph-2 {
-  color: yellow;
+  color: yellow; /* make the color yellow */
+  margin-top: 30px;
+  height: 100px;
+  width: 20px;
 }
 .head {
-    text-align: center;
+    text-align: /* make the text in the middle */center;
     color:#2443e0;
 }
 h2.head {
     font-family: 'Courier New', Courier, monospace;
+}
+.test-align{
+  margin: auto;
+  border: 3px solid red;
+  width: 60%;
+  padding: 30px;
+}
+table, th, td{
+  border: 3px solid greenyellow;
+  border-collapse: separate;
 }
 </style>
 </head>
@@ -26,4 +42,20 @@ h2.head {
 <p id="paragraph-1">hello everyone</p>
 <p style="color: red">Hello World!</p>
 <p class="paragraph-2">Nasi Goreng</p>
+<p class="test-align">Ayam Goreng</p>
+<br>
+<table>
+  <tr>
+    <th>Nomor</th>
+    <th>Nama</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>David William</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Andi</td>
+  </tr>
+</table>
 </body>
